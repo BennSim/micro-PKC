@@ -12,16 +12,22 @@ Recommended hardware requirements:
 * 1 GB RAM 
 * 8 GB SSD Harddrive (do more to store media files)
 
-1. Install git, for Ubuntu: `sudo apt-get install git`
+1. Install Linux (if required).
+
+   Note: All commands below are to be executed within the Linux command line.
+
 2. Install docker.
     * for [macOS](https://docs.docker.com/desktop/mac/install/)
     * for [Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
     * for [Windows](https://docs.docker.com/desktop/windows/install/), note: be sure you have [WSL 2 installed](https://docs.microsoft.com/en-us/windows/wsl/install) first.
-3. Clone this repo: `git clone https://github.com/inblockio/micro-PKC`
+
+3. Install git, for Ubuntu: `sudo apt-get install git`
+
+4. Clone this repo: `git clone https://github.com/inblockio/micro-PKC`
 
 ## Installation
 
-1. `cd micro-PKC`
+1. `cd micro-PKC` (directory created from clone above)
 2. Run `./pkc setup --wallet-address <your wallet address>`
 
 If you want to install the PKC so that it is publicly accessible from the web:
